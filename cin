@@ -17,3 +17,22 @@ int main()
   cout << "\a"; //audio sound
   return 0;
 }
+
+//////////////////////////////////////////
+
+
+int main()
+{
+  using namespace std;
+  
+  int x = 1;
+  
+  //정수가 가질 수 있는 가장 큰 수는 2147483647이다.
+  //입력을 받기 전에는 x가 1이었다.
+  cout << "before your input, x was " << x << endl;
+  cin >> x;
+  
+  cout << "your input is " << x << endl;
+  
+  return 0;
+}
