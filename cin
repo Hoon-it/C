@@ -1,0 +1,19 @@
+#include <iostream> //cout, cin, endl;
+#include <cstdio> //printf
+
+using namespace std;  //std::cout에서 std::를 안 써도 된다.
+
+int main()
+{
+  int x = 1024;
+  double pi = 3.141592;
+  
+  cout << "hello"; // std::endl; //endl;가 없으면 한 줄로 출력된다. (\n : new line)
+  cout << " x is " << x << " pi is " << pi << std::endl;  //endl;가 있으면 두줄로 출력한다.
+  
+  std::cout << "abc" << "\t" << "def" << std::endl; // \t는 오른쪽 줄 맞춤을 해준다.
+  std::cout << "ab" << "\t" << "cdef" << std::endl; // \t는 오른쪽 줄 맞춤을 해준다.
+  
+  cout << "\a"; //audio sound
+  return 0;
+}
