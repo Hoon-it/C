@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int x(2); //x is a variable, 2 is a literal
+  int y = (x > 0) ? 1 : 2;    //x가 0보다 크면, 1을 출력하고, 아니면 2를 출력한다.
+  
+  cout << y << endl;
+  
+  return 0;
+}
