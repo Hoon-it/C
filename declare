@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+int add(int a, int b);    //forward declaration 전방선언
+int multiply(int a, int b);
+
+int main()
+{
+  cout << add(4,2) << endl;
+  cout << multiply(6,2) << endl;
+  
+  return 0;
+}
+
+int add(int a, int b)
+{
+  return a + b;
+}
+
+int multiply(int a, int b)
+{
+  return a * b;
+}
+
+int substract(int a, int b)
+{
+  return a - b;
+}
+
+/*
+int main()
+{
+  cout << add(4,2) << endl;
+  cout << multiply(6,2) << endl;
+  
+  return 0;
+}*/
